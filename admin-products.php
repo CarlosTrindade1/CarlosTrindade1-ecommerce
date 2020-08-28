@@ -62,7 +62,9 @@
 
         $product->save();
 
+
         $product->setPhoto($_FILES["file"]);
+        
 
         header("Location: /admin/products");
         exit;
